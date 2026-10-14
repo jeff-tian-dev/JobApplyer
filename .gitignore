@@ -1,0 +1,5 @@
+# your filled-in, private files
+targets.json
+new_roles.csv
+*.local.*
+candidate-kit/resumes/*.pdf

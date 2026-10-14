@@ -1,0 +1,11 @@
+{
+  "repo": "Summer2027-Internships",
+  "posted_within_days": 2,
+  "categories": ["Hardware", "AI/ML/Data"],
+  "terms": ["Summer 2027"],
+  "include_keywords": ["electrical", "hardware", "embedded", "firmware", "power", "test"],
+  "exclude_keywords": ["phd only"],
+  "exclude_companies": [],
+  "locations": [],
+  "needs_sponsorship": false
+}

@@ -1,0 +1,33 @@
+{
+  "as_of": "YYYY-MM-DD",
+  "identity": {
+    "name": "", "preferred_name": "", "email": "application inbox address", "phone": "",
+    "current_location": "City, State",
+    "address": {"street": "", "city": "", "state": "", "postal_code": "", "country": ""},
+    "citizenships": [], "linkedin": "", "github": "", "portfolio": ""
+  },
+  "education": [
+    {"institution": "", "degree": "", "subject": "", "start": "", "graduation": "", "gpa": ""}
+  ],
+  "availability": {
+    "earliest_date": "", "flexible_start_and_end": true, "latest_date": "", "minimum_duration_weeks": null
+  },
+  "preferences": {
+    "opportunity_type": "internship", "fields": [], "allowed_locations": [], "excluded_locations": [],
+    "remote_allowed": true, "preferred_work_arrangement": "onsite / hybrid / remote",
+    "relocation_ok": true, "salary_text": "", "salary_numeric": null, "employer_exclusions": []
+  },
+  "languages": {},
+  "technical_interview_languages": [],
+  "work_authorization": {
+    "authorized_countries": [], "basis": "citizenship / visa / other",
+    "needs_sponsorship_now_or_future": false, "security_clearance": "none"
+  },
+  "current_offers": {"has_outstanding_offers": false, "deadline": ""},
+  "relatives_employed_at_target_companies": [],
+  "voluntary_demographic_facts": {
+    "gender": "", "ethnicity": "", "disability": "", "veteran": "",
+    "disclosure_preference": "Answer exactly as written here; blank means 'I don't wish to answer'."
+  },
+  "unknowns": ["List anything you haven't decided or don't know yet, so the agent asks instead of guessing."]
+}
