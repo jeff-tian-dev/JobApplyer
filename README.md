@@ -73,7 +73,7 @@ About **$20 a month** total.
 | Piece | Cost |
 |---|---|
 | Claude Pro (includes Claude Code, skills, connectors and scheduled tasks) | $20/month, or $17/month billed yearly |
-| Muse | Free tier is enough to get going; see below for bonus credits |
+| Muse | Free. The free tier plus referral credits covered all of my applications (see below) |
 | Gmail, Google Sheets | Free |
 | Intern Insider, Handshake, Indeed, LinkedIn | Free accounts |
 | This kit | Free (MIT license) |
@@ -81,8 +81,9 @@ About **$20 a month** total.
 ## Getting Muse (if you don't have it yet)
 
 1. Download Muse on iOS or Android, or go to [muse.ai](https://muse.ai), and sign in.
-2. When it asks for a referral code, enter **`5zLI09`** to get bonus credits on top of the free tier. Muse's free tier is generous, and the referral program is how I stacked up extra credits for all my applications.
-3. Then connect your application Gmail and Google Sheets using [`guides/muse-gmail.md`](guides/muse-gmail.md).
+2. When it asks for a referral code, enter **`5zLI09`**. You and I each get **1 billion bonus credits** on top of the free tier.
+3. **Want to keep running Muse for free?** Muse's referral program works the same way for you: share your own code, and every person who signs up with it gets 1 billion credits and so do you. That's how I've run all my applications without paying for Muse.
+4. Then connect your application Gmail and Google Sheets using [`guides/muse-gmail.md`](guides/muse-gmail.md).
 
 ## Ground rules baked into every piece
 
