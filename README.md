@@ -36,6 +36,7 @@ I built this for my own search (538 applications from Aug 1 to Oct 10, 2026, wit
 
 | Path | What it is |
 |---|---|
+| [`CLAUDE.md`](CLAUDE.md) | Directions Claude reads automatically when you open this folder in Claude Code, so it runs the setup and interview for you. |
 | [`SETUP_PROMPT.md`](SETUP_PROMPT.md) | Paste into Claude. It interviews you, fills in everything, builds your resumes, and walks you through setup on your own computer. **Start here.** |
 | [`docs/GETTING_STARTED.md`](docs/GETTING_STARTED.md) | The same setup as a plain checklist, if you'd rather do it by hand. |
 | [`workbook/agent-workbook.xlsx`](workbook/agent-workbook.xlsx) | The shared workbook every agent works through: Agent Guide (the rulebook), Discovery, Agent Queue, Agent Activity, Applications, Events, Blocked. Comes with EXAMPLE rows; delete them before you start. |
@@ -47,6 +48,10 @@ I built this for my own search (538 applications from Aug 1 to Oct 10, 2026, wit
 | [`dist/`](dist) | Ready-to-upload zips of each skill and the candidate kit. |
 
 ## Quick start
+
+**With Claude Code (easiest):** clone or download this repo, open the folder in Claude Code, and say "set me up". Claude reads [`CLAUDE.md`](CLAUDE.md) and starts the interview on its own.
+
+**With claude.ai or the Claude desktop app:**
 
 1. Click **Code > Download ZIP** and unzip it.
 2. Open Claude (claude.ai, the desktop app, or Claude Code). Attach `workbook/agent-workbook.xlsx`, `dist/candidate-kit.zip` and your master resume (everything you've ever done, any length).

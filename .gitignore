@@ -3,3 +3,4 @@ targets.json
 new_roles.csv
 *.local.*
 candidate-kit/resumes/*.pdf
+my-setup/

@@ -5,12 +5,9 @@ Use the separate Gmail you made just for applications, not your personal inbox.
 Steps from Meta's help page ("How Muse works with Connectors", meta.com/help/artificial-intelligence/1687253048996149):
 
 1. Open Muse and go to **Settings > Connectors**. (Or just tell Muse: "Connect my Gmail.")
-   [Screenshot 1: Connectors list]
 2. Tap **Connect** next to Gmail and read what it will access.
 3. Tap **Continue**, then sign in with your **application Gmail** and approve Google's permission screen.
-   [Screenshot 2: Gmail showing as connected]
 4. Back in Connectors, open Gmail and set its permissions. Read/search access is enough for finding verification emails; leave sending set to "ask me first".
-   [Screenshot 3: Gmail permission settings]
 5. Test it: ask Muse "Search my Gmail for the most recent email and tell me the subject line." If it answers, it's connected.
 
 Good to know:
