@@ -44,7 +44,7 @@ I built this for my own search (538 applications from Aug 1 to Oct 10, 2026, wit
 | [`skills/role-finder/`](skills/role-finder) | Claude skill plus a tested Python script that reads the SimplifyJobs list and skips roles you already have. |
 | [`skills/resume-builder/`](skills/resume-builder) | Claude skill that builds your role-specific resumes in a clean, ATS-friendly format (or your own template). |
 | [`skills/inbox-listener/`](skills/inbox-listener) | Claude skill that keeps the workbook up to date from your application inbox. |
-| [`guides/muse-gmail.md`](guides/muse-gmail.md) | Connecting your application Gmail to Muse, plus how to handle portal passwords. |
+| [`guides/muse-gmail.md`](guides/muse-gmail.md) | Connecting your application Gmail and Google Sheets to Muse, plus how to handle portal passwords. |
 | [`dist/`](dist) | Ready-to-upload zips of each skill and the candidate kit. |
 
 ## Quick start
@@ -61,9 +61,9 @@ I built this for my own search (538 applications from Aug 1 to Oct 10, 2026, wit
 
 ## What you'll need
 
-- A Claude account that can use skills and scheduled tasks for the daily role finder and inbox listener. Python 3 is needed for the role finder's script.
-- [Muse](https://www.meta.com/help/artificial-intelligence/1687253048996149/), Meta's AI agent, for applying.
-- A new Gmail just for applications, and a Google account for Sheets.
+- A Claude account with skills. For the daily runs, use Claude Code or Cowork, because the role finder runs a small Python 3 script and both skills run on a schedule. On claude.ai you can still run everything by hand, and the role finder falls back to job-alert emails.
+- [Muse](https://www.meta.com/help/artificial-intelligence/1687253048996149/), Meta's AI agent, for applying, with its **Gmail** and **Google Sheets** connectors turned on. At launch Muse was reported to be US and Canada only.
+- A new Gmail just for applications, and a Google account for Sheets. Import the workbook into Google Sheets; the Blocked tab's formula is made for Sheets.
 - Accounts on the job boards you want to pull from (Intern Insider, Handshake, Indeed, LinkedIn).
 
 ## Ground rules baked into every piece

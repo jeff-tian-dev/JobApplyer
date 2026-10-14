@@ -25,7 +25,7 @@ Do this in order:
 **Step 4. Write my setup plan.** A numbered checklist specific to my computer and accounts, with every click or command spelled out:
 - create the separate application Gmail and add it to my Profile
 - make one job-portal-only password of at least 16 characters (some portals need 14 to 16+), and save it in Muse's secure sign-in or keep it ready to send Muse when it asks. Never reuse another password and never write it in the workbook or kit
-- connect the application Gmail to Muse using `guides/muse-gmail.md`
+- connect the application Gmail and Google Sheets (with edit access) to Muse using `guides/muse-gmail.md`
 - delete the EXAMPLE rows, then upload the agent workbook to Google Sheets (File > Import, or open the .xlsx in Drive and Save as Google Sheets), check the Blocked tab's formula works, and connect Claude to Google Sheets and Gmail
 - keep the candidate kit private: a Drive folder shared only with my applying agent's account
 - install the role-finder skill from `dist/role-finder.zip` (source in `skills/role-finder`), create `targets.json` from the Agent Guide, do one test run with me, and schedule it daily

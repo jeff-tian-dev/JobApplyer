@@ -6,7 +6,7 @@ The setup prompt does all of this with you. This is the same thing as a checklis
 - [ ] Make a new Gmail used only for applications.
 - [ ] Make one password used only for job-portal signups, at least 16 characters (some portals need 14 to 16+). Don't reuse it anywhere else.
 - [ ] Sign up for Intern Insider, Handshake (through your school), Indeed and LinkedIn. Turn on daily internship job alerts on each, sent to the application Gmail.
-- [ ] Get Muse and connect the application Gmail: see [`guides/muse-gmail.md`](../guides/muse-gmail.md).
+- [ ] Get Muse and connect the application Gmail and Google Sheets (edit access): see [`guides/muse-gmail.md`](../guides/muse-gmail.md).
 
 ## 2. Your candidate kit
 - [ ] Fill in `candidate-kit/profile.json`, `COMMON_ANSWERS.md` and `PROJECT_FACTS.md`. Put anything you haven't decided in `unknowns`.
