@@ -66,6 +66,24 @@ I built this for my own search (538 applications from Aug 1 to Oct 10, 2026, wit
 - A new Gmail just for applications, and a Google account for Sheets. Import the workbook into Google Sheets; the Blocked tab's formula is made for Sheets.
 - Accounts on the job boards you want to pull from (Intern Insider, Handshake, Indeed, LinkedIn).
 
+## What it costs
+
+About **$20 a month** total.
+
+| Piece | Cost |
+|---|---|
+| Claude Pro (includes Claude Code, skills, connectors and scheduled tasks) | $20/month, or $17/month billed yearly |
+| Muse | Free tier is enough to get going; see below for bonus credits |
+| Gmail, Google Sheets | Free |
+| Intern Insider, Handshake, Indeed, LinkedIn | Free accounts |
+| This kit | Free (MIT license) |
+
+## Getting Muse (if you don't have it yet)
+
+1. Download Muse on iOS or Android, or go to [muse.ai](https://muse.ai), and sign in.
+2. When it asks for a referral code, enter **`5zLI09`** to get bonus credits on top of the free tier. Muse's free tier is generous, and the referral program is how I stacked up extra credits for all my applications.
+3. Then connect your application Gmail and Google Sheets using [`guides/muse-gmail.md`](guides/muse-gmail.md).
+
 ## Ground rules baked into every piece
 
 - **Nothing gets made up.** Every resume line and form answer has to trace back to your master resume, your project facts or your own answers. If something's missing, the agent marks the role blocked and asks you.
