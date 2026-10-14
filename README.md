@@ -81,7 +81,7 @@ About **$20 a month** total.
 ## Getting Muse (if you don't have it yet)
 
 1. Download Muse on iOS or Android, or go to [muse.ai](https://muse.ai), and sign in.
-2. When it asks for a referral code, enter **`5zLI09`**. You and I each get **1 billion bonus credits** on top of the free tier's 500 million tokens a week.
+2. When it asks for a referral code, enter **`5ZLI09`**. You and I each get **1 billion bonus credits** on top of the free tier's 500 million tokens a week.
 3. **Want to keep running Muse for free?** Muse's referral program works the same way for you: share your own code, and every person who signs up with it gets 1 billion credits and so do you. That's how I've run all my applications without paying for Muse.
 4. Then connect your application Gmail and Google Sheets using [`guides/muse-gmail.md`](guides/muse-gmail.md).
 
