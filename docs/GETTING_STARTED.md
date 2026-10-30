@@ -6,7 +6,7 @@ The setup prompt does all of this with you. This is the same thing as a checklis
 - [ ] Make a new Gmail used only for applications.
 - [ ] Make one password used only for job-portal signups, at least 16 characters (some portals need 14 to 16+). Don't reuse it anywhere else.
 - [ ] Sign up for Intern Insider, Handshake (through your school), Indeed and LinkedIn. Turn on daily internship job alerts on each, sent to the application Gmail.
-- [ ] Get Muse and connect the application Gmail and Google Sheets (edit access): see [`guides/muse-gmail.md`](../guides/muse-gmail.md).
+- [ ] Get Grok Bot (X Premium or higher, plus the Grok Bot app) and connect the application Gmail, Google Drive and Google Sheets (edit access): see [`guides/grok-bot-setup.md`](../guides/grok-bot-setup.md).
 
 ## 2. Your candidate kit
 - [ ] Fill in `candidate-kit/profile.json`, `COMMON_ANSWERS.md` and `PROJECT_FACTS.md`. Put anything you haven't decided in `unknowns`.
@@ -27,10 +27,15 @@ The setup prompt does all of this with you. This is the same thing as a checklis
 - [ ] Run "Run the role-finder skill" once and check the new rows in Discovery and Agent Queue.
 - [ ] Schedule the role finder daily and the inbox listener once or twice a day.
 
-## 5. Muse
-- [ ] Give Muse the workbook link and the candidate kit (privately).
-- [ ] Tell it: "Read the Agent Guide tab first, then do the TEST: claim it describes. Don't open any employer form until I confirm."
-- [ ] Check the test claim in Agent Activity, then tell Muse to start on queued roles.
+## 5. Grok Bot
+- [ ] Create a Bot named `grok` and use it in a direct chat (group chats hide its approval and password requests).
+- [ ] Attach `dist/grok-applier.zip` and say "Unzip this and save it as a skill."
+- [ ] Paste the Bot description from `skills/grok-applier/SKILL.md` into the Bot's Description.
+- [ ] Attach your candidate kit and resumes and have it save them under `/workspace/candidate-kit/`, then list them back.
+- [ ] Have it ask for your job-portal password with a login form, and choose Save to vault. Never paste the password into the chat.
+- [ ] Give it the workbook link and tell it: "Read the Agent Guide tab first, then do the TEST: claim it describes. Don't open any employer form until I confirm."
+- [ ] Check the test claim in Agent Activity (Agent `grok`), then tell it to start on queued roles. Approve the first few submits yourself.
+- [ ] Optional: once that's going well, ask it to create a daily routine that runs the grok-applier skill.
 
 ## Every day (about 15 minutes)
 - [ ] Check the Blocked tab and clear what you can.
