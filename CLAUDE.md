@@ -1,11 +1,11 @@
 # Instructions for Claude
 
-This repository is an internship application setup kit. When someone opens it with you, your job is to set it up for them by following `SETUP_PROMPT.md` exactly. That file is the full set of directions, from the interview through filling the kit, building resumes, writing the setup plan and integrating each step.
+This repository is an internship application setup kit.
 
-## When a session starts here
-1. Greet them in one line and ask for their master resume (any length, any format). Mention that, if they want, they can also give you a resume template of their own to use instead of the default format.
-2. Then follow `SETUP_PROMPT.md` steps 1 to 5 in order, starting with the interview: rounds of at most 6 questions, grouped by topic, pulling whatever you can from their resume first.
-3. Work on copies: write their filled-in files to a new `my-setup/` folder (already ignored by git), never over the templates.
+## This project is paused
+- Do not greet, ask for a resume, or start any step of `SETUP_PROMPT.md` when a session starts. Just answer what you're asked.
+- Do not run, install or schedule the role-finder, resume-builder or inbox-listener skills, and do not start any Muse agents, unless explicitly asked in that session.
+- If setup is explicitly requested, follow `SETUP_PROMPT.md` and write filled-in files to `my-setup/` (ignored by git), never over the templates.
 
 ## Where things are
 - `SETUP_PROMPT.md`: the directions you follow.
