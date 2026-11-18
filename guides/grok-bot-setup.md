@@ -31,6 +31,14 @@ Prefer Drive? Put the kit in a private Drive folder in the application account a
 2. Say: "Unzip this and save it as a skill."
 3. Ask it to confirm the skill is saved and describe what it does.
 
+### Optional: the Intern Insider scan skill
+This second skill checks your saved Intern Insider search for internships posted in the last 2 days and queues the ones that fit, right before Grok Bot applies.
+1. Make an Intern Insider account with your **application Gmail**.
+2. On Intern Insider, set the filters you want (search term, locations, radius) and sort by most recent. Copy the page URL and paste it into `TRACKING.md` as the Intern Insider search link (or just give it to the Bot and ask it to save it there).
+3. Save your Intern Insider login in the Bot's browser: say "Open https://app.interninsider.me/signin and sign in with my application Gmail." It reads the emailed sign-in link from the connected Gmail. If it asks for a password, use the login form and **Save to vault**, or take over its screen and sign in yourself. Its browser stays signed in for later runs.
+4. Attach `dist/intern-insider-scan.zip` and say: "Unzip this and save it as a skill."
+5. Test it: "Run the intern-insider-scan skill." Check the new rows in Discovery and Agent Queue (Source `Intern Insider`).
+
 ## 5. Paste the Bot's instructions
 Copy the **Bot description** block from `skills/grok-applier/SKILL.md` into the Bot's **Description** (and Settings > General > Agent, if your app has it).
 
@@ -54,7 +62,7 @@ Most portals (Workday, Greenhouse, iCIMS and so on) make you create an account. 
 - After that, add narrow always-allow rules if you're comfortable. Never always-allow purchases, deletions or sending email.
 
 ## Running it daily (optional)
-Once a few supervised applications have gone well, say: "Create a routine that runs the grok-applier skill every weekday at 10am." Routines run on your local time zone. Every run uses your weekly Grok usage, even when there's nothing to do, so don't schedule more often than you need. Set a daily cap in the Agent Guide's Pace row.
+Once a few supervised applications have gone well, say: "Create a routine that runs the grok-applier skill every weekday at 10am." If you installed the Intern Insider scan, have the routine run it first: "...that runs the intern-insider-scan skill, then the grok-applier skill, every weekday at 10am." Routines run on your local time zone. Every run uses your weekly Grok usage, even when there's nothing to do, so don't schedule more often than you need. Set a daily cap in the Agent Guide's Pace row.
 
 ## If a portal blocks the Bot
 Some job sites block cloud computers. If a portal won't load or keeps refusing the Bot, turn on **Route egress through this desktop** in the desktop app for that run so its traffic goes through your computer, then turn it off when it's done.

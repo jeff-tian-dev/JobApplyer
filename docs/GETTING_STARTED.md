@@ -11,7 +11,7 @@ The setup prompt does all of this with you. This is the same thing as a checklis
 ## 2. Your candidate kit
 - [ ] Fill in `candidate-kit/profile.json`, `COMMON_ANSWERS.md` and `PROJECT_FACTS.md`. Put anything you haven't decided in `unknowns`.
 - [ ] Write or collect your master resume: everything you've done, any length.
-- [ ] Build your resumes with the resume-builder skill (`dist/resume-builder.zip`), approve each one, and drop the PDFs in `candidate-kit/resumes/`.
+- [ ] Make one resume PDF per role type you want (one page, plain ATS-friendly format, selectable text) and drop them in `candidate-kit/resumes/`.
 - [ ] Fill in the table in `RESUME_GUIDE.md`.
 
 ## 3. The workbook
@@ -35,7 +35,16 @@ The setup prompt does all of this with you. This is the same thing as a checklis
 - [ ] Have it ask for your job-portal password with a login form, and choose Save to vault. Never paste the password into the chat.
 - [ ] Give it the workbook link and tell it: "Read the Agent Guide tab first, then do the TEST: claim it describes. Don't open any employer form until I confirm."
 - [ ] Check the test claim in Agent Activity (Agent `grok`), then tell it to start on queued roles. Approve the first few submits yourself.
-- [ ] Optional: once that's going well, ask it to create a daily routine that runs the grok-applier skill.
+- [ ] Optional: install the Intern Insider scan. Sign in to Intern Insider in the Bot's browser with your application Gmail, put your saved search link (filters set, sorted by most recent) in `TRACKING.md`, then attach `dist/intern-insider-scan.zip` and save it as a skill. Steps in [`guides/grok-bot-setup.md`](../guides/grok-bot-setup.md).
+- [ ] Optional: once that's going well, ask it to create a daily routine that runs the grok-applier skill (with the Intern Insider scan first, if you installed it).
+
+## 6. MausBot backup applier (optional)
+MausBot is free and open source and runs on an AI subscription you connect to it. Use it only when Grok Bot's weekly credits run out, and switch back when they reset. Only one applier works the queue at a time.
+- [ ] Install the mausbot-applier skill from `dist/mausbot-applier.zip`.
+- [ ] Paste the Bot instructions from `skills/mausbot-applier/SKILL.md`, with the full path to your candidate kit filled in.
+- [ ] Connect its Gmail and Google Sheets apps to your application account, and save your job-portal login in its Logins settings. Never paste the password into the chat.
+- [ ] Do its TEST: claim (Agent `maus`) before any real application.
+- [ ] To switch, follow "Switching between appliers" at the end of the skill.
 
 ## Every day (about 15 minutes)
 - [ ] Check the Blocked tab and clear what you can.
